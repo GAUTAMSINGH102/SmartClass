@@ -28,3 +28,6 @@ Be Smart With Smart Class
 ## Recommendation
 - From the Text of Videos, PDFs, Images we will extract Keywords From it using **RAKE Model**.
 
+## Screenshots
+![Upload Video Lecture, PDFs and Images](https://github.com/GAUTAMSINGH102/SmartClass/blob/main/WebsiteImages/upload.png)
+
