@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="static/css/uploadfile.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- For Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>File Uploader</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo">Smart Class</a>
+
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="#">Summary</a>
+            <a href="comingsoon.html">Plagiarism</a>
+            <a href="#">Checker</a>
+            <a href="#">Docs</a>
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <!-- <div id="search-btn" class="fas fa-search"></div>
+           <a href="#" class="fas fa-heart"></a>
+           <a href="#" class="fas fa-shopping-cart"></a> -->
+        </div>
+
+        <!-- <form action="" class="search-form">
+           <input type="search" name="" placeholder="search here..." id="search-box">
+           <label for="search-box" class="fas fa-search"></label>
+        </form> -->
+
+    </header>
+
+    <img style="position:absolute; z-index:-2; top:-150px;" src="static/images/pink_crane.svg">
+    <img style="position:absolute; z-index:-1; left:40px; top:-200px;" src="static/images/purple_crane.svg">
+    <img style="position:absolute; z-index:-2; left:90px; top:-150px;" src="static/images/sun_crane.svg">
+
+    <img style="position:absolute; z-index:-1; right:160px; top:20px;" src="static/images/butterfly1.svg">
+    <img style="position:absolute; z-index:1; right:440px; top:90px;" src="static/images/butterfly2.svg">
+    <!-- <img style="position:absolute; z-index:1; right:370px; top:60px;" src="images/butterfly2.svg"> -->
+    <!-- <img style="position:absolute; z-index:1; right:300px; top:30px;" src="images/butterfly2.svg">
+    <img style="position:absolute; z-index:1; right:440px; top:90px;" src="images/butterfly2.svg"> -->
+    <!-- <img style="position:absolute; z-index:1; right:150px; top:70px;" src="images/butterfly3.svg"> -->
+
+    <img style="position:absolute; z-index:-1" src="static/images/vine1.svg">
+    <img style="position:absolute; z-index:-1" src="static/images/vine2.svg">
+    <img style="position:absolute; z-index:-1;" src="static/images/vine3.svg">
+
+    <div>
+        <img class="metro" src="static/images/metro.webp" alt="">
+        <div class="upload">
+            <div class="upload_content">
+                <div class="upload_img">
+                    <img src="static/images/upload.svg" alt="">
+                </div>
+
+                <div class="upload_forms">
+                    <div class="uploading wrapper">
+                        <header>File Uploader</header>
+                        <form action="#">
+                            <input type="file" class="file-input" name="file" hidden>
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Browse File To Upload</p>
+                        </form>
+                        <section class="progress-area">
+
+                        </section>
+                        <section class="uploaded-area">
+
+                        </section>
+                        <!-- <a id='summary_link' href="/summary"></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="transcribe">
+        <h1>Transcribe Text</h1>
+        <div class="imgtrans">
+            <img src="static/images/talking.png">
+            <p id="transcribe"></p>
+        </div>
+    </div>
+
+    <div class="summary">
+        <h1>Text Summary</h1>
+        <div class="imgsummary">
+            <p id="loadsummary"></p>
+            <img id="ttsSummary" src="static/images/talking2.png">
+        </div>
+    </div>
+
+
+    <div class="recommender">
+        <h1>Recommender</h1>
+        <h2>Youtube Recommendation</h2>
+        <div id="recommenderCards" class="recommendercards">
+
+<!--            <div class="card">-->
+<!--                <img src="static/delete/antman.png">-->
+<!--                <h3>Youtube video Title</h3>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <img src="static/delete/babydriver.jpg">-->
+<!--                <h3>Youtube video Title</h3>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <img src="static/delete/freeguy.jpg">-->
+<!--                <h3>Youtube video Title</h3>-->
+<!--            </div>-->
+        </div>
+
+        <h2>Book Recommendation</h2>
+        <div id="bookRecommenderCards" class="recommenderbookcards">
+
+<!--            <div class="bookcard">-->
+<!--                <img src="static/delete/scikit.jpg">-->
+<!--                <h3>Scikit Learn</h3>-->
+<!--            </div>-->
+<!--            <div class="bookcard">-->
+<!--                <img src="static/delete/andrew.jpg">-->
+<!--                <h3>Andrew Ng ML</h3>-->
+<!--            </div>-->
+<!--            <div class="bookcard">-->
+<!--                <img src="static/delete/python.jpg">-->
+<!--                <h3>Python ML</h3>-->
+<!--            </div>-->
+<!--            <div class="bookcard">-->
+<!--                <img src="static/delete/scikit.jpg">-->
+<!--                <h3>Scikit Learn</h3>-->
+<!--            </div>-->
+<!--            <div class="bookcard">-->
+<!--                <img src="static/delete/andrew.jpg">-->
+<!--                <h3>Andrew Ng</h3>-->
+<!--            </div>-->
+        </div>
+    </div>
+
+
+    <script src="static/js/uploadfile.js"></script>
+</body>
+
+</html>

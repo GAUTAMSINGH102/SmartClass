@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Smart Class</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- bootstrap cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+
+   <!-- header section starts  -->
+
+   <header class="header">
+
+      <a href="#" class="logo">Smart Class</a>
+
+      <nav class="navbar">
+         <a href="#">Home</a>
+         <a href="uploadfile">Summary</a>
+         <!-- <a href="plagiarism">Plagiarism</a>
+         <a href="#">Checker</a> -->
+         <a href="#">Docs</a>
+         <a href="#">Contact</a>
+         <a href="#">About Us</a>
+      </nav>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <!-- <div id="search-btn" class="fas fa-search"></div>
+         <a href="#" class="fas fa-heart"></a>
+         <a href="#" class="fas fa-shopping-cart"></a> -->
+      </div>
+
+      <!-- <form action="" class="search-form">
+         <input type="search" name="" placeholder="search here..." id="search-box">
+         <label for="search-box" class="fas fa-search"></label>
+      </form> -->
+
+   </header>
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <section class="home" id="home">
+
+      <div class="content">
+         <p>Be Smart with</p>
+         <h3>Smart Class</h3>
+      </div>
+
+      <img src="static/images/trees.png" class="tree" alt="">
+      <img src="static/images/mountains.png" class="mountain" alt="">
+      <!-- <img src="images/teaching.png" class="moon" alt=""> -->
+      <img src="static/images/moon.png" class="moon" alt="">
+      <!-- <img src="images/talkingright.png" class="cloud-1" alt="">
+      <img src="images/talkingleft.png" class="cloud-2" alt=""> -->
+      <img src="static/images/cloud.png" class="cloud-1" alt="">
+      <img src="static/images/cloud.png" class="cloud-2" alt="">
+
+   </section>
+
+   <!-- home section ends -->
+
+   <!-- about section starts  -->
+
+   <section>
+      <div class="about" id="about">
+
+         <div class="image" data-aos="fade-right" data-aos-delay="150">
+            <img style="width:600px; height:600px" src="static/images/notime.svg" alt="">
+         </div>
+
+         <div class="content" data-aos="fade-left" data-aos-delay="300">
+            <!-- <span>why choose us?</span> -->
+            <h3 class="notime">No Time</h3>
+            <p>Upload your lecture as audio file and we will transcribe the full lecture and fetch out the summary from
+               it. So if you don't want to go through the whole lecture again then you have to just read that summary to
+               understand the whole lecture.</p>
+            <a href="uploadfile.html" class="btn">Start Uploading Audio</a>
+         </div>
+
+      </div>
+
+      <div class="about" id="about">
+
+         <div class="content" data-aos="fade-left" data-aos-delay="300">
+            <!-- <span>why choose us?</span> -->
+            <h3 class="recommendation">Recommendation</h3>
+            <p>From lecture that you have uploaded we will recommend the important or relevant resources of the topic that have been discuss in that lecture so that you can expert that topic and you don't have to search for resources on other website.</p>
+            <!-- <a href="#" class="btn">Start Uploading Audio</a> -->
+         </div>
+
+         <div class="image" data-aos="fade-right" data-aos-delay="150">
+            <img style="width:600px; height:600px" src="static/images/recommendation.svg" alt="">
+         </div>
+
+      </div>
+
+      <div class="about" id="about">
+
+         <div class="image" data-aos="fade-right" data-aos-delay="150">
+            <img style="width:600px; height:600px" src="static/images/modelused.svg" alt="">
+         </div>
+
+         <div class="content" data-aos="fade-left" data-aos-delay="300">
+            <!-- <span>why choose us?</span> -->
+            <h3 class="modelused">Model Used</h3>
+            <p>For Speech to Text we have used Whisper by OpenAI, for text summary we have used Rake, for Recommendation we have collect the dataset of youtube and medium and by contenct based filtering we are recommending resources.</p>
+            <a href="#" class="btn2">Documentation</a>
+         </div>
+
+      </div>
+
+
+   </section>
+
+   <!-- about section ends -->
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i>Home</a>
+            <a class="link" href="uploadfile.html"> <i class="fas fa-angle-right"></i>Summary</a>
+            <a class="link" href="comming.html"> <i class="fas fa-angle-right"></i>Plagiarism</a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>Paper Checker</a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>Contact</a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>About Us</a>
+         </div>
+
+         <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Model Used</h3>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>Whisper OpenAI</a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>BART Text Summarization</a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>Rake Keyword Extraction</a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i>Sentence Transformer</a>
+         </div>
+
+         <div>
+            <img height="300px" width="300px" src="static/images/Chess.svg">
+         </div>
+
+
+      </div>
+
+      <p class="credit"> Created for <span>Timepass</span> | All Rights Reserved! </p>
+
+   </section>
+
+   <!-- footer section ends -->
+
+
+
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+   <!-- custom js file link     -->
+   <script src="static/js/script.js"></script>
+
+   <script>
+
+      AOS.init({
+         duration: 800,
+      });
+
+   </script>
+
+</body>
+
+</html>
